@@ -1,0 +1,359 @@
+header {
+    padding:20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #d3aa75, #f7edd5, #ead681); 
+}
+
+body {
+    font-family: 'Kaisei Decol', serif;
+}
+
+.logo {
+    float: left;
+    max-width: 150px;
+    height: auto;
+    margin-top: -130;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo img{
+    max-width: 200px;
+}
+
+.menu {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+  
+.menu li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: lowercase; 
+    gap: 4px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline; 
+  color: #9d9780; 
+}
+
+nav a {
+    color: #473c36;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu, p {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 20px;
+}
+
+
+
+/* HOME */
+
+.titolo-home {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 80px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: auto;
+    color: black;
+
+}
+
+.citazione {
+    font-family: 'Cambay', sans-serif; 
+    margin: 0;
+    text-align: right;
+    margin-right: 90px;
+    margin-left: auto;
+    color: black;
+    font-size: 20px;
+}
+
+.grid-home-sopra {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: auto ; 
+    padding: 20px;
+}
+  
+.testo-home-sopra {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.immagine-home-sopra img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 90px;
+}
+
+.grid-home-sotto {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 1px; 
+    padding: 20px;
+}
+  
+.testo-home-sotto {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.immagine-home-sotto img {
+    max-width: 70%;
+    height: auto;
+    margin-left: 90px;
+}
+  
+.testointroduttivo {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 22px;
+    margin-left: 160px;
+    text-align: left;
+}
+
+main{
+    margin-top: 0px;
+}
+
+section.bestseller {
+    display: grid;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px;
+}
+
+section.bestseller h4 {
+    font-size: 18px;
+    text-align: center;
+    color: black; 
+} 
+
+section.bestseller img{
+    max-width: 60%;
+}
+
+section div a {
+    text-decoration: none;
+    color: black; 
+}
+
+section div a:hover {
+    text-decoration: underline; 
+    color: #9d9780; 
+}
+
+hr {
+    border: 3px solid black;
+    margin: 90px; 
+    border-radius: 5px;
+}
+
+
+
+/* AGATHA CHRISTIE */
+
+h1 {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.grid-agatha {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 1px;
+    padding: 30px;
+}
+
+.immagine-agatha img {
+    max-width: 60%;
+    height: auto;
+    margin-left: auto;
+}
+  
+.biografia-agatha {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 22px;
+    margin-top: 0;
+    margin-left: auto;
+    text-align: left;
+}
+
+hr.marrone {
+    border: 3px solid black; 
+    margin-top: 140px;
+    border-radius: 5px;
+    
+}
+
+.gialli-agatha {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 18px;
+    margin-left: 90px;
+}
+
+section.card-libriagatha {
+    display: grid;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px;
+}
+
+section.card-libriagatha img {
+    max-width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.card-libriagatha h4 {
+    font-family: 'Kaisei Decol', serif;
+    font-size: 18px;
+    text-align: center;
+    color: black; 
+} 
+
+
+/* ASSASSINIO SULL'ORIENT EXPRESS */
+
+.titoletto {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 35px;
+    margin-left: 90px;
+    text-align: left;
+
+}
+
+.grid-assassinioorientexpress {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 0; 
+    padding: 20px;
+}
+  
+.testo-orient {
+    font-family: 'Cambay', sans-serif;
+    font-weight: 10; 
+    font-size: 22px;
+    margin-top: 40px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.immagine-orient img {
+    max-width: 40%;
+    align-items: center;
+    height: auto;
+    margin-left: 10%;
+}
+
+.contenitore-recensione-orient {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px; 
+}
+  
+.recensioni-orient {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: auto auto; 
+    gap: 40px; 
+    margin-left: 73px;
+    margin-right: 73px;
+    font-size: 20px;
+}
+  
+.recensione-orient {
+    border: 1px;
+    padding: 20px;
+}
+
+
+/* ASSASSINIO  */
+
+
+
+
+
+
+/* FOOTER */
+
+footer p {
+    font-size: 14px;
+    margin-top: 0;
+    color: black;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+      max-width: 100px;
+    }
+}
+
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
